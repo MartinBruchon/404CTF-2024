@@ -35,6 +35,7 @@ Je vois deux possibilités pour empoisonner le modèle :
 En effet, concernant le point deux :
 - Si x = 25 : |25 - 25| < |50 - 25| -> pred = 25
 - Si x = 50 : |25 - 50| > |50 - 50| -> pred = 50
+
 Mais :
 - Si x = -25 : |25 - (-25)| > |50 - (-25)| -> pred = 50
 - Si x = -50 : |25 - (-50)| < |50 - (-50)| -> pred = 25
