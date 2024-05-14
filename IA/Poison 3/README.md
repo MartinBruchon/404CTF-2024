@@ -42,7 +42,7 @@ Mais :
 
 Et j'ai réussi à obtenir ce résultat en modifiant le premier poids de la couche 4 avec -1.
 Cependant j'obtiens le message suivant :
-````Raté ! Le modèle a obtenu une précision sur les classes inversée de 0.41379310344827586, il faut au moins 0.7```
+```Raté ! Le modèle a obtenu une précision sur les classes inversée de 0.41379310344827586, il faut au moins 0.7```
 
 En choisissant arbitrairement de modifier le dernier poids de la couche 4, je remarque que plus il est grand, plus le modèle est précis :
 ```
